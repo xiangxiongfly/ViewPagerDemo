@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnGuide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ViewPager引导页" />
+
+    <Button
+        android:id="@+id/btnTabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ViewPager+TabLayout+Fragment" />
+
+    <Button
+        android:id="@+id/btnLazy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ViewPager+Fragment 懒加载" />
+
+</LinearLayout>
